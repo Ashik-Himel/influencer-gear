@@ -34,6 +34,7 @@ h1 {
 }
 h2 {
   font-size: 2rem;
+  color: var(--navy-blue-color);
 }
 h3 {
   font-size: 1.5rem;
@@ -198,13 +199,53 @@ ul {
   font-weight: 600;
   font-size: 1.2rem;
   vertical-align: top;
+  color: var(--card-rating-text-color);
 }
 .collection-section .card p {
   margin-bottom: 0;
+  color: var(--card-text-color);
 }
 .collection-section .container > a {
   text-align: right;
   color: var(--primary-color);
   display: block;
   margin-top: 2.5rem;
+}
+
+/* Featured Section */
+.featured-section {
+  padding: 4rem 0;
+}
+.featured-section p {
+  color: var(--featured-text-color);
+}
+
+/* Footer Section */
+.footer-section {
+  background-color: var(--navy-blue-color);
+  padding-block: 2rem;
+  text-align: center;
+  color: white;
+}
+.footer-section p {
+  margin-inline: auto;
+  margin-bottom: 5px;
+  color: var(--footer-text-color);
+}
+.footer-section .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.footer-section .social-icons i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #22213C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
 }
