@@ -145,7 +145,8 @@ ul {
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
-  border: 2px solid lightgray;
+  border-block: 2px solid transparent;
+  border-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.3), transparent) 9 stretch;
   padding: 2rem 1rem;
 }
 .reseller-section .img-container img {
