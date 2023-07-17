@@ -117,3 +117,26 @@ ul {
 .hero-section .hero-img {
   background: url("../assets/images/circle-bg.svg") center / contain no-repeat;
 }
+
+/* Reseller Brand Image Section */
+.reseller-section {
+  padding: 4rem 0;
+}
+.reseller-section .img-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  border: 2px solid lightgray;
+  padding: 2rem 1rem;
+}
+.reseller-section .img-container img {
+  width: auto;
+  height: 30px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.reseller-section .img-container img:hover {
+  transform: scale(1.3);
+}
